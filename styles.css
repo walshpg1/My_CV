@@ -77,9 +77,9 @@ background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 
 .logo {
     position: absolute;
-    bottom: 10px; /* Spacing from the bottom */
+    bottom: 25px; /* Spacing from the bottom */
     left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Centers image within the container */
+    transform: translateX(-50%); /* Corrected with chatGPT - Centers image within the container */
     width: 100px; /* Adjust width to fit */
     height: auto; /* Keeps image proportionate */
 }
