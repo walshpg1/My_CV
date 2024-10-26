@@ -75,16 +75,13 @@ a:hover{
     object-fit: cover;
 }
 
-/* Logo positioned at the bottom */
 .logo {
     width: 150px;
     height: 150px;
     padding: 20px;
+    margin-bottom: 10px;
     object-fit: cover;
-    position: absolute;
-    bottom: 20px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%); /* Center the logo horizontally */
+    bottom: 10px;
 }
 .left h2 {
     margin-top: 0px;
