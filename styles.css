@@ -75,7 +75,8 @@ a:hover{
     object-fit: cover;
 }
 
-.left-bottom-logo {
+.logo {
+    float: right;
     width: 150px;
     height: 150px;
     padding: 20px;
