@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f9;
+    color: #333232;
+    padding: 0%
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    color: rgb(17, 252, 1);
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow:4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left section (Photo & Details) */
+#gradient-text-name{
+    color: rgb(80, 101, 121);
+}
+.gradient-text1 {
+    /* Gradient background */
+    font-size: 20px;
+    background: #0ceeee 20%;
+    background: -moz-linear-gradient(45deg, #a4c5db 0%, #4da0d8 74%, #0a3049 100%);
+    background: -webkit-linear-gradient(45deg, #0c4368 0%, #062d47 74%, #082b43 100%);
+    background: linear-gradient(45deg, #1C6EA4 0%, #0e6cab 74%, #0e4468 100%);
+    
+    /* Clip the background to text */
+    background-clip: text;
+    -webkit-background-clip: text; /* Required for Safari */
+    
+    /*Make text color transparent to show the gradient */
+    color: transparent;
+}
+.gradient-text2 {
+    /* Gradient background */
+    background: #0ceeee 20%;
+    background: -moz-linear-gradient(45deg, #a4c5db 0%, #4da0d8 74%, #0a3049 100%);
+    background: -webkit-linear-gradient(45deg, #0c4368 0%, #062d47 74%, #082b43 100%);
+    background: linear-gradient(45deg, #1C6EA4 0%, #0e6cab 74%, #0e4468 100%);
+    
+    /* Clip the background to text */
+    background-clip: text;
+    -webkit-background-clip: text; /* Required for Safari */
+    
+    /*Make text color transparent to show the gradient */
+    color: transparent;
+}
+
+.left {
+    width: 30%;
+    background: #1C6EA4;background: -moz-linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
+    background: -webkit-linear-gradient(45deg, #075f9a 0%, #2388CB 74%, #144E75 100%);
+    background: linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.left h2 {
+    margin-top: 0px;
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+
+.left p, .left ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.left ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.left ul li {
+    margin-bottom: 10px;
+}
+
+/* Right section (Content) */
+.right {
+    width: 70%;
+    padding: 40px;
+    
+}
+
+.right h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0%;
+    color: #333;
+}
+
+.right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.right p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.job h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.job p {
+    font-size: 0.9rem;
+    margin-bottom: 1%;
+    color: #666;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 10px;
+}
+
+#yellowbelt{
+    background: #1C6EA4;background: -moz-linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
+    background: -webkit-linear-gradient(45deg, #075f9a 0%, #2388CB 74%, #144E75 100%);
+    background: linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
+}
