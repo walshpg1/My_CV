@@ -99,6 +99,7 @@ a:hover{
 .left ul {
     list-style-type: none;
     padding-left: 0;
+    bottom: 20px;
     
 }
 
@@ -151,10 +152,4 @@ a:hover{
 
 .job ul li {
     margin-bottom: 10px;
-}
-
-#yellowbelt{
-    background: #1C6EA4;background: -moz-linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
-    background: -webkit-linear-gradient(45deg, #075f9a 0%, #2388CB 74%, #144E75 100%);
-    background: linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
 }
