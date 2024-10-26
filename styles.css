@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #fdfdfd;
     color: #4f4d4d;
-    padding: 0%
+    padding: 0%;
 }
 
 a {
@@ -56,10 +56,11 @@ a:hover{
     color: transparent;
 }
 
+/* Left section (Photo & Details) */
 .left {
     width: 30%;
-    background: #1C6EA4;background: -moz-linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
-    background: -webkit-linear-gradient(45deg, #075f9a 0%, #2388CB 74%, #144E75 100%);
+    position: relative; /* Allows for positioning of the logo within this container */
+    background: #1C6EA4;
     background: linear-gradient(45deg, #1C6EA4 0%, #2388CB 74%, #144E75 100%);
     color: #fff;
     padding: 25px;
@@ -77,14 +78,11 @@ a:hover{
 
 .logo {
     position: absolute;
-    bottom: 0;
-    
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    bottom: 10px;
+    bottom: 10px; /* Spacing from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Centers image within the container */
+    width: 100px; /* Adjust width to fit */
+    height: auto; /* Keeps image proportionate */
 }
 .left h2 {
     margin-top: 0px;
