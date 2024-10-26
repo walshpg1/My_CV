@@ -27,12 +27,11 @@ a:hover{
     color: rgb(80, 101, 121);
 }
 .gradient-text1 {
-    /* Gradient background */
-    font-size: 20px;
-    background: #0ceeee 20%;
-    background: -moz-linear-gradient(45deg, #a4c5db 0%, #4da0d8 74%, #0a3049 100%);
-    background: -webkit-linear-gradient(45deg, #0c4368 0%, #062d47 74%, #082b43 100%);
-    background: linear-gradient(45deg, #1C6EA4 0%, #0e6cab 74%, #0e4468 100%);
+    /* Gradient background - https://htmlcheatsheet.com/css/ */
+    background: #1C6EA4;
+background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     
     /* Clip the background to text */
     background-clip: text;
@@ -43,10 +42,10 @@ a:hover{
 }
 .gradient-text2 {
     /* Gradient background */
-    background: #0ceeee 20%;
-    background: -moz-linear-gradient(45deg, #a4c5db 0%, #4da0d8 74%, #0a3049 100%);
-    background: -webkit-linear-gradient(45deg, #0c4368 0%, #062d47 74%, #082b43 100%);
-    background: linear-gradient(45deg, #1C6EA4 0%, #0e6cab 74%, #0e4468 100%);
+    background: #1C6EA4;
+background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     
     /* Clip the background to text */
     background-clip: text;
