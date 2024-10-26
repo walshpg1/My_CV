@@ -84,6 +84,13 @@ a:hover{
     width: 100px; /* Adjust width to fit */
     height: auto; /* Keeps image proportionate */
 }
+/* Change the color of links on hover */
+.logo:hover {
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    
+  }
 .left h2 {
     margin-top: 0px;
     font-size: 1.4rem;
