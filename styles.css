@@ -76,7 +76,9 @@ a:hover{
 }
 
 .logo {
-    float: right;
+    position: absolute;
+    bottom: 0;
+    
     width: 150px;
     height: 150px;
     padding: 20px;
