@@ -12,6 +12,7 @@ a {
 a:hover{
     color: rgb(17, 252, 1);
     text-decoration: underline;
+    -webkit-transition-duration: 1.0s; /* Safari */
 }
 
 .container {
