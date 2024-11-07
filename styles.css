@@ -10,7 +10,7 @@ a {
 }
 
 a:hover{
-    color: rgb(253, 253, 253);
+    color: rgb(248, 0, 0);
     text-decoration: underline;
     -webkit-transition-duration: 1.0s; /* Safari */
 }
