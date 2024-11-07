@@ -5,6 +5,7 @@ body {
     padding: 0%;
 }
 
+/* anchor tag for  linkedin link */
 a {
     color: white;
 }
@@ -28,8 +29,8 @@ a:hover{
     color: rgb(80, 101, 121);
 }
 
+/* Gradient background - https://htmlcheatsheet.com/css/ */
 .gradient-text1 {
-    /* Gradient background - https://htmlcheatsheet.com/css/ */
 background: #1C6EA4;
 background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 background: -webkit-linear-gradient(left, #8fa6b6 0%, #2388CB 50%, #144E75 100%);
@@ -72,10 +73,11 @@ background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
 .profile-photo {
     width: 150px;
     height: 150px;
+    position: relative;
     border-radius: 50%;
     padding: 20px;
     margin-bottom: 10px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .logo {
