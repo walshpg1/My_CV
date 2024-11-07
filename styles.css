@@ -10,7 +10,7 @@ a {
 }
 
 a:hover{
-    color: rgb(17, 252, 1);
+    color: rgb(137, 205, 235);
     text-decoration: underline;
     -webkit-transition-duration: 1.0s; /* Safari */
 }
@@ -90,7 +90,7 @@ background: linear-gradient(to right, #47a3e0 0%, #2388CB 50%, #144E75 100%);
 .logo:hover {
     background-color: #fcfcfc;
     border-radius: 50%;
-    -webkit-transition-duration: 1.0s; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
     
   }
 .left h2 {
